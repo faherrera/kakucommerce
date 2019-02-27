@@ -1,0 +1,1 @@
+'use strict';var _express=require('express'),_express2=_interopRequireDefault(_express);function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}var app=(0,_express2.default)();app.get('/',function(a,b){b.send('hello world')}),app.listen(3e3,function(){console.log('Ejecutando node.js')});
